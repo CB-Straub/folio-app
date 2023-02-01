@@ -1,0 +1,115 @@
+.greeting-main {
+    height: 75px;
+    width: 100%;
+    /* background-color: #5c5959; */
+     /* matte black  */
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    column-width: auto;
+    /* opacity:0.8 ; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 1rem;
+    z-index: 50; 
+    /* z-index lets sidedrawer and backdrop components slide over the navbar */
+    background: black;
+    padding-top: 350px;
+   
+    
+    
+}
+
+h2 {
+    font-size:1.6rem;
+    padding: 15px
+
+}
+
+ h3 {
+    padding-left: 450px;
+    color: rgb(24, 255, 24)
+ }
+ .hello {
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .hello:hover {
+    color:black;
+    transition: 700ms linear;
+ } 
+
+.tech-icons  i {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    padding-left: 1rem;
+    padding-top: 55px;
+    float: left;
+    font-size: 3rem;
+    cursor: pointer;
+    color:rgb(255, 255, 255);  
+
+}
+.tech-icons i:hover {
+    transform: rotate(3.142rad);
+    color:rgba(250, 250, 0, 0.674);
+    transition: 500ms linear;
+    text-shadow: 5px 5px 2px blue;
+}
+
+.react-icons {
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-left: 1rem;
+    padding-top: 50px;
+    float: right;
+    font-size: 3.7rem;
+    cursor: pointer;
+    padding-right: 180px;
+    
+}
+.vscode-icon:hover {
+     color: rgba(240, 236, 28, 0.752);
+     transform: rotate(0.34turn) translateX(20px);
+   
+}   
+
+.vscode-icon {
+    font-size: 3.5rem;
+    padding-right: 15px;    
+ 
+}
+.vscode-icon4{
+    font-size: 3.5rem;
+    padding-right: 15px; 
+}
+.vscode-icon4:hover {
+    /* transform: rotate(-0.90turn); */
+    color: rgb(35, 3, 3);
+    font-size: 5rem;
+    opacity:0.8;
+    background:rgb(255, 0, 0) ;
+    border-radius: 50%;
+    animation-name: rotate;
+    animation-duration: 0.7s;
+    animation-direction: normal
+
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+@media(max-width: 300px){
+     .hello-div {
+       align-self: start;
+        padding-left: 15px;
+            
+     },
+     .react-icons {
+        color: rgb(24, 255, 24)
+     }
+}
