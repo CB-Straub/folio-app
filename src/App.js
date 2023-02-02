@@ -1,19 +1,28 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Greeting from './components/Greeting';
-
+import React, { useState} from 'react'
 //components
 import Navbar from './components/Navbar';
+import Greeting from './components/Greeting';
+import Backdrop from './components/Backdrop';
+import SideDrawer from './components/SideDrawer';
+
 
 
 function App() {
+
+  const [sideToggle, setSideToggle] = useState(false)
+
+
   return (
     
   <Router> 
-    <div>
-      <Navbar/>
-      <Greeting/>  
-   </div>
+   
+    <Navbar click={() => setSideToggle(true)}/>
+    <Greeting/> 
+    <SideDrawer show={sideToggle} click ={ () => setSideToggle(true)} />
+    <Backdrop show={sideToggle} click ={ () => setSideToggle(false)} />
+    
   </Router>
   
     

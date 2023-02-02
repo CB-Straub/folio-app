@@ -1,0 +1,71 @@
+.sidedrawer {
+    width: 50%;
+    height: 100vh;
+    background-color: white;
+    /* white color to contrast the body of the product screen */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    /* z-index 200 puts sidedrawer above both the nabvbar(50) and backdrop(100) */
+     transition: all 0.3s ease-out;
+     /* sets the sideDrawer to move transition starting fast and ends slow  */
+     transform: translateX(-100%);
+     /* moves sideDrawer 100% off screen */
+
+     /* sets the sidedrawer links to the center of the div container  */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-image: url('https://images.pexels.com/photos/6249454/pexels-photo-6249454.jpeg?auto=compress&cs=tinysrgb&w=1600');     
+     background-repeat: no-repeat;
+     background-size:cover;
+    
+}
+
+.sidedrawer.show {
+  transform: translateX(0);
+}
+.sidedrawer__links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-style: oblique;
+    
+}
+
+.sidedrawer__links > li {
+    display: flex;
+    align-items: center;
+}
+
+.sidedrawer__links > li > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #323232;
+    opacity:0.7;
+    flex: 1;
+    padding: 1rem;
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    text-decoration: none;
+   
+    
+}
+
+.sidedrawer__links > li > a:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(252, 252, 252);
+    transition: 500ms linear;
+    transform: scale(1.1);
+
+}
+
+/* query prevents sidedrawer from showing when not in mobile mode */
+@media (min-width: 960px){
+    .sidedrawer {
+        display: none;
+    }
+};

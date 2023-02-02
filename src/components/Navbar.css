@@ -11,9 +11,16 @@
     padding: 1.5rem 1rem;
     z-index: 50; 
     /* z-index lets sidedrawer and backdrop components slide over the navbar */
-    background: black
+    /* background: black; */
+    position: fixed
 }
-
+.navbar__logo{
+    display: block;
+    padding-left: 0;
+    padding-right: 160px;
+    padding-left: 0px;
+   
+}
 .navbar__logo h2 {
     color: whitesmoke;
     cursor: pointer;    
@@ -24,7 +31,7 @@
    
 }
 .navbar__logo p {
-    padding-left: 55px;
+    padding-left: 15px;
     font-style: italic;
     font-weight: 500;
     font-size: larger;
@@ -40,9 +47,9 @@
 
 }
 .navbar__links > li {
-    padding-left: 15rem;
+    padding-left:5px;
     /* spaces out cart and shop */
-    padding-right:5px;
+    padding-right:35px;
     font-family: Arial, Helvetica, sans-serif;
     
 
@@ -53,7 +60,7 @@
     /* removes the a tag link underline */
     color: whitesmoke;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     font-size: 1.6rem;
     font-style: oblique;
     -webkit-box-shadow: 5px 5px 15px 5px #2a2929; 
@@ -89,7 +96,7 @@
 .hamburger__menu {
     width: 30px;
     height: 30px;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;;
@@ -105,4 +112,24 @@
     background: #ff8400;
     transition: 500ms linear;
     transform: scale(1.1);
+}
+
+@media (max-width: 960px) {
+    .navbar__links {
+        display: none;
+
+    }
+
+    .hamburger__menu {
+        display: flex
+    }
+    .navbar p {
+        font-size: medium;
+    }
+}
+/* at 500px the navbar logo will switch to smaller font */
+@media (max-width: 500px) {
+    .navbar__logo h2 {
+        font-size: 1.8rem;
+    }
 }
