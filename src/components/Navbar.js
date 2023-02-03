@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -10,18 +10,18 @@ const Navbar = ({click}) => {
     <nav className='navbar'>
 
       <div className='navbar__logo'>
-        <h2 title="Please call me Brian">CB Straub</h2>
+       <NavLink to='/' className='name-link' title="Please call me Brian" >CB Straub</NavLink> 
         <p>Web Development / Design </p>
        </div>
 
     <ul className='navbar__links'>
       <li>
-        <Link to='/about'>About</Link>
+        <NavLink to='/about'>About</NavLink>
       </li>
       <li>
-        <Link to='/projects'>Projects</Link>
+        <NavLink to='/projects'>Projects</NavLink>
       </li>
-      <li><Link to='/contact'>Contact</Link></li>
+      <li><NavLink to='/contact'>Contact</NavLink></li>
     </ul>
 
     <div className='hamburger__menu' onClick={click}>

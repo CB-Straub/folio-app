@@ -2,7 +2,7 @@
     /* height makes navbar remain constant when switching to mobile, fixes bug. */
     height: 150px;
     width: 100%;
-    /* background-color: #5c5959; */
+    background-color: #000000;
      /* matte black  */
     display: flex;
     opacity:0.95 ;
@@ -12,7 +12,17 @@
     z-index: 50; 
     /* z-index lets sidedrawer and backdrop components slide over the navbar */
     /* background: black; */
-    position: fixed
+    position: fixed;
+    
+}
+
+.name-link {
+    font-size:3rem;
+    padding: 15px;
+    text-decoration: none;
+    font-style: italic;
+    color: whitesmoke
+
 }
 .navbar__logo{
     display: block;
@@ -35,6 +45,7 @@
     font-style: italic;
     font-weight: 500;
     font-size: larger;
+    color: whitesmoke;
 }
 
 .navbar__links {
@@ -65,14 +76,13 @@
     font-style: oblique;
     -webkit-box-shadow: 5px 5px 15px 5px #2a2929; 
     box-shadow: 2px 5px 15px 2px #383737;
-    background-color:transparent;
-    border-radius: 50px;
+    /* background-color:transparent; */
     
   
     
 }
 .navbar__links > li > a:hover {
-    background-color: #000000;
+    /* background-color: #000000; */
     text-decoration: underline;
      transition: 500ms linear;
     -moz-transform: scale(1.0) translate(1px, 0px) skew(1deg, 0deg);
@@ -131,5 +141,8 @@
 @media (max-width: 500px) {
     .navbar__logo h2 {
         font-size: 1.8rem;
+    }
+    .name-link {
+        font-size: 2rem;
     }
 }

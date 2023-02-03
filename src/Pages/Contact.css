@@ -1,0 +1,101 @@
+.title {
+    color: white;
+    font-size: 50px;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+
+.service-top {
+    min-height: 90vh;
+    padding-top: 250px;
+    padding-bottom: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+form .input-row .side {
+    width: 100%;
+    
+}
+
+.sub {
+    text-align: center;
+    color:whitesmoke;
+    line-height: 1.5;
+    font-size: 20px;
+    margin-bottom: 50px;
+    opacity: 0.89
+}
+
+form .input-row {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+   
+}
+ form input, form textarea {
+        border: 0;
+        border-bottom: 1px solid whitesmoke;
+        border-radius: 0;
+        background: transparent;
+        outline: none;
+        text-align: left;
+        color: whitesmoke;
+        padding: 0.6rem;
+        padding-left: 0;
+        width: 100%;
+ }
+
+ input:-webkit-autofill,
+ input:-webkit-autofill:hover,
+ input:-webkit-autofill:focus,
+ input:-webkit-autofill:active{
+    box-shadow: 0 0 0 30px black inset !important;
+    -webkit-box-shadow: 0 0 0 30px black inset !important;
+    -webkit-text-fill-color: whitesmoke !important;
+ }
+
+ .textarea {
+    width: 100%;
+    margin-top: 90px;
+    line-height: 1.4;
+    resize: none;
+ }
+ button {
+    border: 1px solid whitesmoke;
+    background: transparent;
+    display: block;
+    position: relative;
+    margin: 80px auto 0;
+    color: whitesmoke;
+    opacity: 0.78;
+    padding:15px 100px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ button:hover {
+    color:black
+    
+ }
+ button:hover::after {
+    width: 100%;
+    right: unset;
+    left: 0;
+ }
+ button::after {
+    content:'';
+    height: 100%;
+    width: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    left: unset;
+    transition: all 0.5s linear;
+    z-index: -1;
+    background-color: rgb(6, 201, 201);
+    right:0
+ }

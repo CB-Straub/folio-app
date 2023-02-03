@@ -7,12 +7,8 @@
 }
 
 body {
-  background-color: black;
-  color: white;
-  background-image: url('https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?auto=compress&cs=tinysrgb&w=1600');
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.7
+  background-color: rgb(0, 0, 0);
+  
 
 }
 
