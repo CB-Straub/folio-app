@@ -18,16 +18,14 @@ const Projects = () => {
                         content={projects.content}
                         githubUrl={projects.githubUrl}
                         renderUrl={projects.renderUrl}
-                        
                         id={projects.id} />
                     )
                   })
                 }
-
+            
         </div>
-            <div className='render-alert-banner'>
-              <h4>The free tier Web Service sites provided by Render are slow to load.  Please be patient. </h4>
-
+             <div className='render-alert-banner'>
+                 <h4>The free tier Web Service sites provided by Render are slow to load.  Please be patient. </h4>
             </div>
       </div>
     </div>
