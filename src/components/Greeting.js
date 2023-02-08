@@ -28,7 +28,7 @@ const Greeting = () => {
           <FiFigma className='vscode-icon' title='ME'/>
           <SiVisualstudiocode className='vscode-icon' title='BE' />
           <SiAirtable className='vscode-icon'title='MYSELF'/>
-          <BsGithub className='vscode-icon4' title='Hola'/>
+          <a href='https://github.com/CB-Straub'><button><BsGithub className='vscode-icon4' title='Hola'/></button> </a>  
           <div className='hello-div'>
           <h3 className='hello' title='peekaboo'>Hello</h3>
           </div>

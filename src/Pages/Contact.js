@@ -34,8 +34,8 @@ const Contact = () => {
     <div className='service-top'>
       <div className='title'>Contact</div>
       <div className='sub'>
-        Feel free to reach out with questions, proposals or projects. <br />
-        Let's work together! 
+        Feel free to reach out for hiring opportunities, collaborations, questions..etc. <br />
+      
 
     </div>
       <form 

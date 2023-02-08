@@ -1,0 +1,110 @@
+
+  
+
+
+  .card-image {
+     border: 1px solid rgb(197, 196, 196);
+    background-color: transparent;
+    padding-top: 50px;
+    border-radius: 5px;
+    position: relative;
+    display: flex ;
+    object-fit: contain
+     
+  }
+  .card {
+    /* border-radius: 1px;
+    border: 1px solid rgb(214, 213, 213);
+    padding-bottom: 50px;
+    border-radius: 15px;
+    height: 500px; */
+    width: 650px;
+    height:650px;
+    padding: 1rem;
+    /* moves card off the left edge of screen */
+  
+    margin: 8px auto;
+    background: whitesmoke;
+    box-shadow: 2px 4px 5px rgba(0 , 0 , 0, 0.4);
+    border-radius: 13px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-info {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 25px;
+    font-weight: 666;
+    margin-bottom: 10px;
+    color:rgb(135, 132, 132);
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+  }
+  .card-content-section {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  
+    
+  }
+  .card-content-section p {
+    font-size: 15px;
+    font-style: normal;
+    padding: 10px;
+    
+  }
+  .card-content-section a {
+    color: rgb(36, 226, 29);
+    padding-left: 5px;
+    text-decoration: none;
+    width: 55px;
+    font-size: 25px;
+   
+  }
+  .card-content-section a:hover{
+    color:rgb(75, 74, 74)
+  }
+  .render-icon {
+    padding-top: 5px;
+   font-family: 'Titillium Web', sans-serif;
+  
+  
+  }
+  
+  .projects-container {
+    background-color: rgb(220, 220, 220);
+  
+    
+  
+  }
+  .projects-list {
+      padding: 16px 0;
+      color:rgb(99, 97, 97);
+      padding: auto;
+      height:1100px;
+     
+  }
+  
+  .projects-grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 50px;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-bottom: 50px;
+      padding-top: 200px;
+      
+      
+  
+  }
+  .link-icon {
+    font-size: 3.5rem;
+    padding-right: 15px;    
+  
+  }
+  
+  

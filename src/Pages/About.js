@@ -8,10 +8,13 @@ const About = () => {
 
             {/* <h3>About</h3> */}
             <p> Hello. I'm Brian, a Web Developer from Denver, Colorado. 
-                I design and develop using MongoDB, Express.js, React and Node.js. 
-                
-               </p>
-              <p>I like to play guitar, garden vegetables, cook foods, read books, collect vinyl records, sit by fires and build cool and useful things.  </p>
+                  I am certified as a full-stack web developer but I prefer to work on the front-end side of the house, using React and associated frameworks.    </p>
+             <br />
+            <p>You can learn more about my professional life by visiting my profile on LinkedIn, just click on the icon at the bottom right of the page.</p>  
+          
+               <br/> 
+              <p>I like to play guitar, garden vegetables, cook foods, read books, collect vinyl records, sit by fires and build cool and useful things. 
+                To get to know me through social media, click on the instagram icon on the bottom left. </p>
         </div>
     </div>
    
