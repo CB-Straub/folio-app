@@ -115,4 +115,28 @@
     color:rgba(0, 0, 0, 0.4)
   }
   
-  
+  @media(max-width:1260px) {
+    .projects-grid-container {
+      grid-template-columns: repeat(1, 1fr);
+     
+    }
+    
+  }
+  @media(max-width:760px) {
+    .projects-grid-container {
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 20px;
+      padding-left: 10px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      padding-top: 120px;
+      
+    }
+    .card {
+      width: 425px;
+      height:500px;
+
+    }
+   
+    
+  }

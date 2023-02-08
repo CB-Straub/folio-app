@@ -9,7 +9,8 @@
     text-align: center;
     display: flex;
     opacity: 0.5;
-    border-top: 1px solid whitesmoke
+    border-top: 1px solid whitesmoke;
+    position:fixed
     
 
 }

@@ -152,4 +152,7 @@
     .name-link {
         font-size: 2rem;
     }
+    .navbar{
+        width: 100%
+    }
 }
