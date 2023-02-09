@@ -5,8 +5,8 @@
   box-sizing: border-box;
 }
 
-img {
+/* img {
   width: 100%;
   object-fit: contain;
   /* takes the image and fits it into 100% of it's container */
-}
+

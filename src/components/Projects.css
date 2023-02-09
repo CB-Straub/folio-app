@@ -83,7 +83,7 @@
   .projects-list {
       padding: 16px 0;
       color:rgb(99, 97, 97);
-      padding: auto;
+      /* padding: auto; */
       height:1100px;
      
   }
