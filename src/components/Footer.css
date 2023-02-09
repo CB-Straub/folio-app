@@ -1,4 +1,4 @@
-.footer {
+:is(.footer) {
     height:150px;
     width:100%;
     /* background: rgb(7, 7, 7); */
