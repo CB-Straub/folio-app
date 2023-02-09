@@ -4,7 +4,7 @@ import { SiInstagram, SiLinkedin } from 'react-icons/si'
 
 const Footer = () => {
   return (
-    <div className ='footer'>
+    <div className='footer'>
       
       <a href='https://www.instagram.com/vanomoose/' target='_blank' rel="noreferrer noopener">
         <button>
