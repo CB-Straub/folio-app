@@ -10,7 +10,7 @@ const Footer = () => {
         <button>
           <SiInstagram className='footer__icon'/>
         </button>
-        </a>
+      </a>
 
         <p>© Deadwax, LLC </p>  <p>dw-0023-A-1</p>  <h6>ß</h6>
         
