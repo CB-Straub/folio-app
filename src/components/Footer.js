@@ -4,11 +4,11 @@ import { SiInstagram, SiLinkedin } from 'react-icons/si'
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className='footer__container'>
       
       <a href='https://www.instagram.com/vanomoose/' target='_blank' rel="noreferrer noopener">
         <button>
-          <SiInstagram className='footer-icon'/>
+          <SiInstagram className='footer__icon'/>
         </button>
         </a>
 
@@ -16,7 +16,7 @@ const Footer = () => {
         
        <a href='https://www.linkedin.com/in/cbstraub?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BZmQvGSpcS6SxbqE6XssGRQ%3D%3D' target='_blank' rel="noreferrer noopener">
         <button>
-          <SiLinkedin className='footer-icon'/>
+          <SiLinkedin className='footer__icon'/>
         </button>
       </a> 
 
