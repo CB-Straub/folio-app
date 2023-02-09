@@ -1,5 +1,5 @@
-.footer__container {
-    height: 150px;
+.footer {
+    height: 100px;
     width: 100vw;
     justify-content: space-evenly;
     align-items: center;
@@ -17,23 +17,23 @@
    
     
 }
-.footer__container a {
+.footer a {
 
 }
-.footer__container p {
+.footer p {
     font-size: 17px;
     color: whitesmoke;
     opacity:0.5;
     font-style: italic;
 }
-.footer__container h6 {
+.footer h6 {
     font-size: 17px;
     color: whitesmoke;
     opacity:0.5;
     font-family: cursive ;
     font-style: italic;
 }
-.footer__container button {
+.footer button {
     background: transparent;
     outline: none;
     border: 0;
@@ -41,7 +41,7 @@
    
 
 }
-.footer__container button:hover{
+.footer button:hover{
     background: rgb(250, 2, 2);
     transition: all 0.3s linear;
    
