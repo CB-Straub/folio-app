@@ -16,7 +16,7 @@ const About = () => {
               <p>I like to play guitar, garden vegetables, cook foods, read books, collect vinyl records, sit by fires and build cool and useful things. 
                 To get to know me through social media, click on the instagram icon on the bottom left. </p>
 
-              <p>Please reach out directly usign the contact form if you'd like a copy of my resume.</p>
+              <p>Please reach out directly using the contact form if you'd like a copy of my resume.</p>
         </div>
     </div>
    
