@@ -1,0 +1,42 @@
+.container__footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid whitesmoke;
+    position: fixed;
+    width:100%;
+    opacity:0.6;
+    padding-right: 25px;
+    padding-left: 25px;
+    background:black;
+    height:50px
+}
+
+.container__footer p {
+    color: whitesmoke;
+    font-size: 23px;
+    font-style: italic;
+    opacity:0.6
+}
+
+.container__footer h6 {
+    color: whitesmoke;
+    font-style: italic;
+     font-size: 23px;
+     opacity:0.6
+}
+
+.social__icons {
+    font-size: 33px;
+    padding-right: 0px;  
+    background:black;
+    color:whitesmoke;
+    opacity:0.9;
+    display: flex;
+    padding-left: 5px;
+}
+.social__icons:hover {
+    color: wheat;
+    
+}

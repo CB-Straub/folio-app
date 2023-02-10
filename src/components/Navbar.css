@@ -22,8 +22,7 @@
     text-decoration: none;
     font-style: italic;
     color: whitesmoke;
-    font-family: 'Gruppo', cursive;
-
+    
 }
 .navbar__logo{
     display: block;
@@ -43,9 +42,9 @@
     font-size: 3rem;
     font-style: oblique;
    
-    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    /* -webkit-box-shadow: 5px 5px 15px 5px #000000; 
         box-shadow: 5px 5px 15px 5px #000000;
-   
+    */
 }
 .navbar__logo p {
     padding-left: 15px;
@@ -53,6 +52,7 @@
     font-weight: 500;
     font-size: larger;
     color: whitesmoke;
+    opacity:0.76
 }
 
 .navbar__links {
@@ -77,6 +77,7 @@
     text-decoration: none;
     /* removes the a tag link underline */
     color: whitesmoke;
+    opacity:0.8;
     display: flex;
     /* align-items: center; */
     font-size: 1.6rem;

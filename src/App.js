@@ -7,7 +7,7 @@ import Navbar from './components/Navbar';
 import Greeting from './components/Greeting';
 import Backdrop from './components/Backdrop';
 import SideDrawer from './components/SideDrawer';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 
 //pages 
@@ -36,7 +36,7 @@ function App() {
      <Route path ='/projects' exact element={<Projects/>} />
      <Route path='/contact'  exact element ={<Contact/>}/> 
     </Routes>
-    {/* <Footer/> */}
+    <Footer/>
     </main>
    
    
