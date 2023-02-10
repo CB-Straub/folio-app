@@ -8,8 +8,9 @@ import {SiInstagram, SiLinkedin } from 'react-icons/si'
 const Footer = () => {
   return (
     <div className='container__footer'>
-        <div className='icon-container'>
-        <a href='https://www.instagram.com/vanomoose' target='_blank' rel='noreferrer noopener'>
+        <div className='container-container'>
+             <div className='icon-container'>
+                <a href='https://www.instagram.com/vanomoose' target='_blank' rel='noreferrer noopener'>
             <button> 
                 <SiInstagram className='social__icons'/>
             </button>
@@ -24,6 +25,10 @@ const Footer = () => {
             <div className='deadwax-container'>
             <p>©Deadwax, Inc  dw-oo23-A-1 ß </p>
              </div>
+
+
+        </div>
+       
            
  </div>
   )
