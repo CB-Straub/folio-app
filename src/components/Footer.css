@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
     display: flex;
     height: 50px;
     width: 100%;
@@ -7,7 +7,7 @@
     text-align: center;
     border-top: 1px solid whitesmoke;
     opacity:0.6;
- 
+    position:fixed;
     background:black
 }
 .footer__icon{
@@ -43,4 +43,4 @@
     transition: all 0.3s linear;
    
    
-}
+} */
