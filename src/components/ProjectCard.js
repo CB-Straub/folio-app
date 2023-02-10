@@ -40,8 +40,9 @@ const ProjectCard = (props) => {
             </div>
            
         </div>
-
+      
     </div>
+   
   )
 }
 
