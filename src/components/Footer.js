@@ -6,7 +6,6 @@ const Footer = () => {
   return (
   
     <div className='container-footer'>
-      
       <a href='https://www.instagram.com/vanomoose/' target='_blank' rel="noreferrer noopener">
         <button>
           <SiInstagram className='footer__icon'/>
