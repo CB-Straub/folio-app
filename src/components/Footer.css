@@ -1,5 +1,5 @@
 .container__footer {
-    display: flex;
+    
     justify-content:space-between;
     align-items: center;
     text-align: center;
@@ -38,5 +38,19 @@
 }
 .social__icons:hover {
     color: wheat;
+    
+}
+.deadwax-container {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+
+
+}
+.icon-container {
+    display: flex;
+    text-align: center;
+    padding-left: 15px;
+    justify-content: center;
     
 }
