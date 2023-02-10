@@ -34,7 +34,7 @@ const Contact = () => {
     <div className='service-top'>
       <div className='title'>Contact</div>
       <div className='sub'>
-        Feel free to reach out for hiring opportunities, collaborations, questions..etc. <br />
+        Feel free to reach out for hiring opportunities, collaborations, questions, and if you'd like a copy of my resume. <br />
       
 
     </div>
