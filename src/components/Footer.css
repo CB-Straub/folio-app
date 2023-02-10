@@ -9,7 +9,7 @@
     opacity:0.6;
     position:fixed;
     background:black
-}
+} */
 .footer__icon{
     font-size: 33px;
     color: whitesmoke;
@@ -17,28 +17,28 @@
   
     
 }
-.footer p {
+/* .footer p {
     font-size: 17px;
     color: whitesmoke;
     opacity:0.5;
     font-style: italic;
-}
-.footer h6 {
+} */
+/* .footer h6 {
     font-size: 17px;
     color: whitesmoke;
     opacity:0.5;
     font-family: cursive ;
     font-style: italic;
-}
-.footer button {
+} */
+/* .footer button {
     background: transparent;
     outline: none;
     border: 0;
     border-radius: 55%;
    
 
-}
-.footer button:hover{
+} */
+/* .footer button:hover{
     background: rgb(250, 2, 2);
     transition: all 0.3s linear;
    
