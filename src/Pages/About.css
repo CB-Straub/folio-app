@@ -41,6 +41,14 @@ p {
     font-size: 2.5rem;
     line-height: 1.5
 }
+
+.about-content a {
+    color:whitesmoke
+}
+.about-content a:hover {
+    color:beige
+}
+
 @media(max-width: 1360px){
     .about-content{
         height: 500px;;

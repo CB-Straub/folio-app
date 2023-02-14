@@ -15,8 +15,9 @@ const About = () => {
                <br/> 
               <p>I like to play guitar, garden vegetables, cook foods, read books, collect vinyl records, sit by fires and build cool and useful things. 
                 To get to know me through social media, click on the instagram icon on the bottom left. </p>
+              <br />
 
-              <p>Please reach out directly using the contact form if you'd like a copy of my resume.</p>
+              <p>Please download my resume/cv pdf here:  <a href={require('../assests/Brian C. Straub Resume-1.pdf')} target='_blank' rel='noreferrer noopener'>Resume/CV</a> </p>
         </div>
     </div>
    
