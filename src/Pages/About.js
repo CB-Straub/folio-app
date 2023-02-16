@@ -17,7 +17,7 @@ const About = () => {
                 To get to know me through social media, click on the instagram icon on the bottom left. </p>
               <br />
 
-              <p>Please download my resume/cv pdf here:  <a href={require('../assests/Brian C. Straub Resume-1.pdf')} target='_blank' rel='noreferrer noopener'>Resume/CV</a> </p>
+              <p>Please download my resume/cv pdf here:  <a href={require('../assests/Brian C. Straub Resume-2.pdf')} target='_blank' rel='noreferrer noopener'>Resume/CV</a> </p>
         </div>
     </div>
    
