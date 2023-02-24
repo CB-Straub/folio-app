@@ -7,13 +7,22 @@
     position: fixed;
     width:100%;
     opacity:0.6;
-    padding-right: 25px;
-    padding-left: 25px;
+    /* padding-right: 25px;
+    padding-left: 25px; */
     background:black;
     position:fixed;
   
 }
 .container-container {
+    position:fixed;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+    width:100%;
+    margin: 0;
+    
+
+
     
 }
     
@@ -40,7 +49,7 @@
     color:whitesmoke;
     opacity:0.9;
     display: flex;
-    padding-left: 5px;
+    padding-left: 3px;
 }
 .social__icons:hover {
     color: wheat;
@@ -60,7 +69,7 @@
 .icon-container {
     display: flex;
     text-align: center;
-    padding-left: 15px;
+    /* padding-left: 15px; */
     justify-content: center;
     background:black;
     opacity:0.7;
