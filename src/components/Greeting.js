@@ -13,21 +13,21 @@ const Greeting = () => {
       
      <div className='tech-icons'>
             
-            <i className="fa-brands fa-react" title='I'></i>
-            <i className="fa-brands fa-node-js" title='WANT'></i>
-            <i className="fa-brands fa-js" title='TO'></i>
-            <i className="fa-brands fa-html5" title='THANK'></i>
-            <i className="fa-brands fa-css3" title='YOU'></i>
+            <i className="fa-brands fa-react" title='React'></i>
+            <i className="fa-brands fa-node-js" title='Node.js'></i>
+            <i className="fa-brands fa-js" title='Javascript'></i>
+            <i className="fa-brands fa-html5" title='HTML5'></i>
+            <i className="fa-brands fa-css3" title='CSS3'></i>
             {/* <i className="fa-brands fa-github" title='github'></i>
             */}
          <div className='react-icons'>
          
           
-          <SiNotion className='vscode-icon'title='FOR'/>
-          <SiMongodb className='vscode-icon' title='LETTING'/>
-          <FiFigma className='vscode-icon' title='ME'/>
-          <SiVisualstudiocode className='vscode-icon' title='BE' />
-          <SiAirtable className='vscode-icon'title='MYSELF'/>
+          <SiNotion className='vscode-icon'title='Notion'/>
+          <SiMongodb className='vscode-icon' title='MonogDB'/>
+          <FiFigma className='vscode-icon' title='Figma'/>
+          <SiVisualstudiocode className='vscode-icon' title='Visual Studio Code' />
+          <SiAirtable className='vscode-icon'title='Airtable'/>
           <a href='https://github.com/CB-Straub'target='_blank' rel="noreferrer noopener"><button><BsGithub className='vscode-icon4' title='Hola'/></button> </a>  
           <div className='hello-div'>
           <h3 className='hello' title='peekaboo'>Hello</h3>
