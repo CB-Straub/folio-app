@@ -33,14 +33,14 @@
     color: whitesmoke;
     font-size: 23px;
     font-style: italic;
-    opacity:0.6
+    opacity:0.9
 }
 
 .container__footer h6 {
     color: whitesmoke;
     font-style: italic;
      font-size: 23px;
-     opacity:0.6
+     opacity:0.9
 }
 
 .social__icons {
@@ -73,7 +73,7 @@
     /* padding-left: 15px; */
     justify-content: center;
     background:black;
-    opacity:0.8;
+    opacity:0.9;
   
     
     
