@@ -21,7 +21,7 @@ export const projects =  [
     {
         "id": 3,
         "title": "React Music Blog",
-        "image": require('../assests/Screenshot 2023-03-06 at 12-23-42 React Music Blog.png'),
+        "image": require('../assests/Screenshot 2023-01-20 at 15-04-18 React App.png'),
         "content": "A very simple music blog using React, React Context for state management. A self-contained data set was requested so the client could manage blog posts on their own without having to use a database. The render link will show a responsive static landing page only, links will go to blank pages in design phase.",
         "githubUrl" : "https://github.com/CB-Straub/portfolio-blog",
         "renderUrl" : "https://react-music-blog.onrender.com/"
