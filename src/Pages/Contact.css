@@ -1,9 +1,10 @@
 .title {
-    color: white;
+      color: rgb(24, 255, 24);
     font-size: 50px;
     opacity: 0.7;
     margin-bottom: 30px;
-    border-bottom: 1px solid whitesmoke;
+    /* border-bottom: 1px solid whitesmoke; */
+  
 }
 
 .service-top {
@@ -46,7 +47,7 @@ form .input-row {
         background: transparent;
         outline: none;
         text-align: left;
-        color: whitesmoke;
+        color: rgb(24, 255, 24);
         padding: 0.6rem;
         padding-left: 0;
         width: 100%;
@@ -100,7 +101,7 @@ form .input-row {
     left: unset;
     transition: all 0.5s linear;
     z-index: -1;
-    background-color: rgb(6, 201, 201);
+    background-color: rgb(24, 255, 24);
     right:0
  }
 

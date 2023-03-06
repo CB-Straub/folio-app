@@ -49,10 +49,14 @@ h2 {
  }
  .hello {
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
  }
  .hello:hover {
     color:black;
     transition: 700ms linear;
+    cursor: pointer;
+    text-decoration: none;
+
  } 
 
 .tech-icons  i {
@@ -63,7 +67,7 @@ h2 {
     padding-top: 55px;
     float: left;
     font-size: 3rem;
-    cursor: pointer;
+    /* cursor: pointer; */
     color:rgb(255, 255, 255);  
 
 }
@@ -82,7 +86,7 @@ h2 {
     padding-top: 50px;
     float: right;
     font-size: 3.7rem;
-    cursor: pointer;
+    /* cursor: pointer; */
     padding-right: 180px;
     
 }
@@ -104,7 +108,7 @@ h2 {
 .vscode-icon4:hover {
     /* transform: rotate(-0.90turn); */
     color: rgb(0, 0, 0);
-    font-size: 9rem;
+    font-size: 3.5rem;
     opacity:0.8;
     background:rgb(255, 0, 0) ;
     border-radius: 50%;

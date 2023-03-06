@@ -25,9 +25,9 @@ const Projects = () => {
                 }
             
         </div>
-        <div className='render-alert-banner'>
+        {/* <div className='render-alert-banner'>
                  <h4>Free tier Web Services on Render are slow to load. Please be patient </h4>
-            </div>
+            </div> */}
       </div>
     </div>
   )

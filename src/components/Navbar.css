@@ -92,6 +92,7 @@
 .navbar__links > li > a:hover {
     /* background-color: #000000; */
     text-decoration: underline;
+    color:rgb(24, 255, 24);
      transition: 500ms linear;
     -moz-transform: scale(1.0) translate(1px, 0px) skew(1deg, 0deg);
     -webkit-transform: scale(1.0) translate(1px, 0px) skew(1deg, 0deg);

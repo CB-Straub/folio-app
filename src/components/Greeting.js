@@ -3,6 +3,7 @@ import './Greeting.css'
 import { SiVisualstudiocode, SiMongodb, SiNotion, SiAirtable, } from 'react-icons/si'
 import { FiFigma } from 'react-icons/fi'
 import { BsGithub } from 'react-icons/bs'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -30,7 +31,8 @@ const Greeting = () => {
           <SiAirtable className='vscode-icon'title='Airtable'/>
           <a href='https://github.com/CB-Straub'target='_blank' rel="noreferrer noopener"><button><BsGithub className='vscode-icon4' title='Hola'/></button> </a>  
           <div className='hello-div'>
-          <h3 className='hello' title='peekaboo'>Hello</h3>
+         
+          <NavLink to='/about' className="hello"><h3 className='hello' title='peekaboo'>Hello</h3></NavLink>
           </div>
          
           
